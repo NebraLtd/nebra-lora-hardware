@@ -1,11 +1,10 @@
-# HNT-LIGHT-BBB-CAPE
-Nebra Hotspot Hat
+# Nebra Helium Hotspot Hat
 
 ![Screenshot](HARDWARE/eagle-screenshot.png)
 
-The Nebra Helium Hotspot BBB Cape is designed for the new generation of helium Light Hotspots.
+The Nebra Helium Hotspot HAT is designed for the new generation of Nebra Helium Hotspots.
 
-It features space for the Radio Module, a button & two LEDs. Along with an EEPROM to store Beaglebone Cape data and a ATECC to comply with Helium Hotspot Requirements.
+It features space for the Radio Module, a button & two LEDs. Along with an EEPROM to store RPi HAT data and a ATECC to comply with Helium Hotspot Requirements.
 
 # DIY Note
 

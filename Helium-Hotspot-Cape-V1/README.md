@@ -1,5 +1,4 @@
-# HNT-LIGHT-BBB-CAPE
-Nebra Light Hotspot Beaglebone Black Cape
+# Nebra Light Hotspot Beaglebone Black Cape
 
 ![3D Render](HARDWARE/3drender-v1.png)
 

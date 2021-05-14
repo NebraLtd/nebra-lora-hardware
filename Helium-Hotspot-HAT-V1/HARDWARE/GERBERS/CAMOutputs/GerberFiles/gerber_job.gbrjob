@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-05-07T18:33:02Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "RAK833BACKPLANE"
+        },
+        "Owner": "Aaron Shaw <sales@pi-supply.com>",
+        "Size": {
+            "X": 65.018844,
+            "Y": 56.5
+        }
+    }
+}

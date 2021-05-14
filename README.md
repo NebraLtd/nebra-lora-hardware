@@ -1,2 +1,2 @@
 # nebra-lora-hardware
-Hardware Files for a veriaty of Nebra Lora Hardware
+Hardware Files for a variety of Nebra Lora Hardware

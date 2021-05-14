@@ -1,0 +1,80 @@
+########################################################################
+# Settings file with Cape EEPROM data
+#
+# Edit this file for particular board and run eepcape tool:
+# ~/ ./eepcape  -p settings.txt eeprom.bin
+# then use dd command to write output binary file to EEPROM.
+# For cape at I2C address 0x57, write command looks like:
+# ~/ dd if=./eeprom.bin of=/sys/bus/i2c/devices/2-0057/eeprom
+#
+########################################################################
+
+########################################################################
+# Cape info
+
+# Name of board in ASCII (max 32 characters)
+board_name "Cape eeprom demo"
+
+# Hardware version code for board in ASCII.
+# Version format is up to the developer. i.e. 02.1...�00A1....10A0
+version "00A0"
+
+# Company or individual's name.
+# ASCII name (max 16 characters).
+manufacturer "CapeEverything"
+
+# ASCII Characters for the part number (max 16 characters).
+# Used to load device tree overlay with same part number
+part_number "bb-cape-s123"
+
+# Number of pins used by the daughter board including the power pins used.
+# Decimal value of total pins 92 max.
+number_of_pins 3
+
+# ASCII Assembly code to let the manufacturer document the assembly number or product.
+# A way to quickly tell from reading the serial number what the board is.
+# Up to the developer to determine.
+assembly_code "0003"
+
+# 2 digit week of the year of production
+# Automatically generated if not specified
+week_of_production 38
+
+# 2 digit year of production
+# Automatically generated if not specified
+year_of_production 17
+
+# Maximum 4 decimal digit incrementing board number for the week of production
+# Automatically generated random value if not specified
+board_number 1
+
+# Maximum current drawn from 3V3B power rail in milliamps.
+vdd_3V3b_current 30
+
+# Maximum current drawn from VDD 5V power rail in milliamps.
+vdd_5v_current 0
+
+# Maximum current drawn from SYS_5V power rail in milliamps.
+sys_5v_current 100
+
+# Indicates whether or not the board is supplying voltage on the
+# VDD_5V rail and the current rating, set to 0 for no supplied,
+# set 1-65535 for the current supplied specified in milliamps
+dc_supplied 0
+
+########################################################################
+# GPIO pins, uncomment and configure in line for pins used on board
+# Options for MODE: 0 - 7
+# Options for SLEW: SLOW, FAST
+# Options for DIRECTION: INPUT, OUTPUT, BDIR
+# Options for PULL: PULL_UP, PULL_DOWN, PULL_NONE
+# Options for RX: RX_ENABLE, RX_DISABLE
+# Read BeagleBone Reference Manual for details how to select options
+# for desired pin configuration
+
+#         	PIN  	MODE SLEW	DIRECTION  	PULL		RX
+#         	----  ---- ----	-------  	----		----
+pinconfig 	P8_43  7	   SLOW	INPUT      PULL_UP	RX_DISABLE
+pinconfig 	P8_44  7	   SLOW	INPUT     	PULL_UP	RX_DISABLE
+pinconfig 	P8_45 7	   SLOW	INPUT     	PULL_UP		RX_DISABLE
+pinconfig 	P8_46 7	   SLOW	INPUT     	PULL_UP		RX_DISABLE

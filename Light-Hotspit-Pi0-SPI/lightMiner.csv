@@ -1,3 +1,4 @@
+sep=;
 "Qty";"Value";"Device";"Package";"Parts";"Description";"ARROW_PART_NUMBER";"ARROW_PRICE-STOCK";"BUILT_BY";"CONFIGURATION__POLE-THROW_";"COPYRIGHT";"DESCRIPTION";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MAX_SWITCHING_CURRENT";"MAX_SWITCHING_VOLTAGE_AC_";"MF";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";"PRODUCT_TYPE";"PROD_ID";"RS_PART_NUMBER";"SOURCELIBRARY";"SWITCH_TYPE";"TE_PART_NUMBER";"VALUE";"VENDOR";
 "1";"";"DCBARRELSMT";"DCJACK_2MM_SMT";"CN1";"2.0mm DC Barrel Jack";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
 "1";"";"DIODE-SMB";"SMB";"D2";"DIODE";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"11";"";"";"";"";"";"";"";"";
